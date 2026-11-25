@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica</title>
+    <link rel="stylesheet" href="estilos/style.css">
+    <script src="js/1.js"></script>
+</head>
+<body>
+    <header>
+        <h1>NAVIDAD</h1>
+    </header>
+    <section>
+        <nav class="contenido">
+            <ul>
+                <li><a href="#Bienvenida">Bienvenida</a></li>
+                <li><a href="#Historia">Historia</a></li>
+                <li><a href="#Personajes">Personajes</a></li>
+                <li><a href="#Regalos">Regalos</a></li>
+                <li><a href="#Comida">Comida</a></li>
+            </ul>
+        </nav>
+    </section>
+    <section id="Bienvenida">
+        <h2>Bienvenida</h2>
+        <p>Hola!! te doy la bienvenida a mi pagina con tematica navideña. Felices fiestas a todos!!</p>
+        <table border="1">
+            <tr>
+                <td>
+                    <ul>
+                    <li>"All I Want for Christmas Is You" – Mariah Carey</li>
+                    </ul>
+                </td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfTVmK94axqXiZHjEdfddYo-cTE4uSwNrIdzlrkXuK2w&s" alt=""></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>"El Burrito Sabanero" (Mi Burrito Sabanero) – Hugo Blanco </li>
+                    </ul>
+                </td>
+                <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ2z53iymJH1hv9uUgB3oR844KbOjXmKfN08w8iIFLUIBt4FlcpmHAeldw6&s=10" alt=""></td>
+            </tr>
+            <tr>
+                <td>
+                    <ul>
+                        <li>"Feliz Navidad" – José Feliciano</li>
+                    </ul>
+                </td>
+                <td><img src="https://cdn-images.dzcdn.net/images/cover/c8072d76a75a70d1491e3ce3cd5c80e8/0x1900-000000-80-0-0.jpg" alt=""></td>
+            </tr>
+        </table>
+    </section>
+
+    <section id="Historia">
+        <h2>Historia</h2>
+        <div class="Historia">
+            <p>La historia de la Navidad tiene sus raíces en el relato bíblico del nacimiento de Jesucristo en Belén, acompañado por María y José, y visitado por los pastores y los Reyes Magos, una narración que siglos más tarde sería fijada el 25 de diciembre en el Imperio Romano bajo el gobierno del emperador Constantino y los papas Julio I y Liberio, coincidiendo con antiguas celebraciones en honor a Saturno y al Sol Invictus. Con el paso de los siglos, la festividad fue incorporando otras figuras emblemáticas como San Nicolás de Bari, cuya generosidad dio origen al moderno Papá Noel o Santa Claus, consolidando así una celebración global cargada de simbolismo.</p>
+        </div>
+    </section>
+
+    <section id="Personajes">
+        <h2>Personajes</h2>
+        <div>
+            <img src="https://static.vecteezy.com/system/resources/thumbnails/051/312/932/small/santa-claus-white-background-free-vector.jpg" alt="" width="200px" height="200px">
+            <button type="button" onclick="descPapaNoel()">Papa Noel-Santa Claus</button>
+            <p id="d1"></p>
+        </div>
+        <div>
+            <img src="https://www.psicologiaycrianza.com/wp-content/uploads/2017/01/27981-NWXF7C.jpg" alt="" width="200px" height="200px">
+            <button type="button" onclick="descReyes()">Reyes Magos</button>
+            <p id="d2"></p>
+        </div>
+        <div>
+            <img src="https://static.wikia.nocookie.net/magnificentbaddie/images/7/73/The_Grinch.png/revision/latest?cb=20210323121308" alt="" width="200px" height="300px">
+            <button type="button" onclick="descGrinch()">Grinch</button>
+            <p id="d3"></p>
+        </div>
+        <div>
+            <img src="https://cdn0.uncomo.com/es/posts/6/9/8/como_se_llaman_los_renos_de_papa_noel_y_cuantos_son_54896_1200.jpg" alt="" width="200px" height="200px">
+            <button type="button" onclick="descRenos()">Renos</button>
+            <p id="d4"></p>
+        </div>
+        <div>
+            <img src="https://static.vecteezy.com/system/resources/previews/060/849/724/non_2x/cartoon-mrs-claus-with-cookies-illustration-free-vector.jpg" alt="" width="200px" height="250px">
+            <button type="button" onclick="descSenoraClaus()">Señora Claus</button>
+            <p id="d5"></p>
+        </div>
+        <div>
+            <img src="https://thumbs.dreamstime.com/b/dibujo-feliz-de-baby-jesus-por-la-noche-beb%C3%A9-en-con-estrella-bel%C3%A9n-ilustraci%C3%B3n-vectorial-163322713.jpg" alt="" width="200px" height="200px">
+            <button type="button" onclick="descBebeJesus()">Bebe Jesus</button>
+            <p id="d6"></p>
+        </div>
+
+    </section>
+
+    <section id="Regalos">
+        <h2>Regalos</h2>
+        <input type="text" id="regaloInput" placeholder="Escribe un regalo">
+        <button type="button" onclick="agregarRegalo()">Agregar regalo</button>
+        <p id="listaRegalos"></p>
+    </section>
+
+    <section id="Comida">
+        <h2>Comida</h2>
+        <p>Picana ($35) <button type="button" onclick="comprarPicana()">Agregar</button></p>
+        <img src="https://cdn.bolivia.com/gastronomia/2012/08/24/picana-navidena-2974.jpg" alt="" width="200px" height="170px">
+        <p>Lechon ($40) <button type="button" onclick="comprarLechon()">Agregar</button></p>
+        <img src="https://www.recetas.com.bo/sites/default/files/2019-10/lechon-al-horno.jpg" alt="" width="200px" height="200px">
+        <p>Paneton ($12) <button type="button" onclick="comprarPaneton()">Agregar</button></p>
+        <img src="https://cdn.bolivia.com/sdi/2021/12/22/como-identificar-paneton-adulterado-bolivia-982527.jpg" alt="" width="200px" height="170px>
+        <p>Carrito:<span id="carrito"></span></p>
+        <p>Total:<span id="totalCarrito">0</span></p>
+    </section>
+    <footer>
+        Diseñado por: Maria Fernanda Villarroel Paredes
+    </footer>
+</body>
+</html>

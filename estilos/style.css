@@ -1,0 +1,88 @@
+body{
+    background-color: beige;
+}
+header{
+    background-color: #d62929;
+    padding: 10px;
+    color: #fff3d1;
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    text-decoration:rgb(240, 205, 255);
+}
+header h1{
+    text-shadow: 4px 4px 8px #f8ff94;
+    font-size: 80px;
+}
+nav{
+    background-color: #ee4343;
+    text-decoration: none;
+    text-align: center;
+}
+.contenido ul{
+    background-color: #ee4343;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    justify-content: center;
+}
+li{
+    padding: 15px;
+}
+.contenido a{
+    text-decoration: none;
+    color: #ffffff;
+    border-radius: 15px;
+    border: solid 1px;
+    border-color:rgb(255, 255, 34);
+    padding: 10px;
+    background-color: #1fb444;
+    font-family: Arial, Helvetica, sans-serif;
+}
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(121, 63, 37);
+}
+footer{
+    background-color: #ee4343;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    color: beige;
+    text-align: center;
+}
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(97, 73, 46);
+}
+table{
+    background-color: #f8ff94;
+}
+table li{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #813822;
+}
+table img{
+    width: 200px;
+    height: 200px;
+}
+.Historia p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #813822;
+    background-color: greenyellow;
+    border-radius: 15px;
+    border: solid 1px;
+    border-color:green;
+    padding: 10px;
+}
+#Personajes{
+    background-image: url(https://thumbs.dreamstime.com/b/fondo-blanco-de-la-navidad-dibujos-de-esquema-grises-incons%C3%BAtiles-vector-96883338.jpg);
+}
+#Personajes img{
+    display: flex;
+    margin: 10px;
+    padding: 20px;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTf4bwTH8IKsA8azySkygwMmWH0pfH0gHVKITEhZ42w8ELALS4PfjUkHBlA&s=10);
+}
+#Comida{
+    background-image: url(https://img.magnific.com/vector-gratis/fondo-navideno-diseno-patron-estilo-retro_1048-19546.jpg);
+}
